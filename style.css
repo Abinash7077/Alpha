@@ -119,7 +119,7 @@ left: 80px;
    background-attachment: fixed;
    background-size: 100% 100%;
 }
-.overFilms{
+.overFilms1{
     background-image: url("./images/8.png");
    
 
@@ -129,6 +129,7 @@ left: 80px;
     position: relative;
    background-attachment: fixed;
    background-size: 100% 100%;
+   display: none;
 }
 
 
@@ -174,7 +175,7 @@ left: 80px;
 .feature_box .btn{
     width: 200px;
 
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     padding: 10px 25px;
     background-color:#f26621;
     color: white;
@@ -197,6 +198,7 @@ height: 100%;
 .back{
     width: 30%!important;
     height: 100vh;
+    display: flex;
 
     background-size: cover;
 }
@@ -257,7 +259,7 @@ height: 100%;
 }
 .content .btn{
     margin-top: 1.5rem;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     background-color: #F26621;
     width: 250px;
     padding: 10px 25px;
@@ -349,6 +351,9 @@ height: 100%;
     left: 50%;
     
 }
+.span{
+    font-weight: 600;
+}
 .active{
     top: 0;
 }
@@ -421,15 +426,20 @@ display: block;
     text-align: justify;
     font-size: 1.7rem;
 }
-.button .butn{
-    width: 150px;
+.button .butn {
+    width: 160px;
     height: 40px;
     outline: none;
     border-radius: 5px;
     margin-top: 15px;
     border: none;
-    background-color: orange;
+    background-color: #F26621;
+    color: white;
 }
+.button .butn a{
+    text-decoration: none;
+}
+
 .check{
     width: 15px!important;
 }
@@ -525,7 +535,7 @@ display: block;
 
     font-size: 1.7rem;
     padding: 10px 25px;
-    background-color:#f26621;
+    background-color:#F26621;
     color: white;
     border: none;
     margin-top: 3.5rem;
@@ -669,10 +679,24 @@ display: block;
     
     
     
-.back img{
+.back{
     display: none;
    
   
+}
+.overFilms1{
+    display: flex;
+
+}
+.overFilms{
+    display: none;
+}
+.why_img{
+    display: block;
+}
+.why_img img{
+    width: 100%;
+    height: 100%;
 }
 
 }
