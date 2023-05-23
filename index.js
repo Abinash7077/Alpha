@@ -1,8 +1,16 @@
 let contact=document.querySelector(".contact")
 let button=document.querySelector('.request_button')
+let btn2=document.querySelector('.btn')
 button.addEventListener("click",()=>{
     console.log("hello")
     contact.classList.add('active')
+
+    
+})
+btn2.addEventListener("click",()=>{
+    console.log("hello")
+    contact.classList.add('active')
+    
     
 })
 
